@@ -1,6 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Jumbled Rotate-
+    You are given N strings consisting of digits,
+    alphabets, and special characters.Each string contains at least one digit and one alphabet.From each string extract the digits, find their sum, and square it.If the square is odd, perform left rotations by the square, else perform right rotations by the square.The number of digits in any string is guaranteed to be less than equal to 4.
+
+    Input format :
+    The first line contains an integer number,
+    N.Second line contains N space - separated strings.
+
+    Output format:
+    Single line output consists of N space -
+        separated strings.
+
+*/
+
 string solve(string str)
 {
     int sum = 0;
